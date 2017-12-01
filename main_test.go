@@ -24,3 +24,13 @@ func TestDockerEvents(t *testing.T) {
 
 	log.Println(message)
 }
+
+/*
+   "Labels": {
+       "com.amazonaws.ecs.cluster": "sandbox1",
+       "com.amazonaws.ecs.container-name": "subscription-service",
+       "com.amazonaws.ecs.task-arn": "arn:aws:ecs:us-east-1:089964245684:task/bff49df6-14ca-4351-a1b3-9b0f894d7aa1",
+       "com.amazonaws.ecs.task-definition-family": "subscription-service-sandbox",
+       "com.amazonaws.ecs.task-definition-version": "27"
+   }
+*/
